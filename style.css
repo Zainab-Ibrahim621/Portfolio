@@ -11,7 +11,7 @@ img{
     max-width: 100%;
 }
 nav{
-    background-color: black;
+    background-color: deeppink;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -127,8 +127,35 @@ svg{
     letter-spacing: 1;
     font-size: 23px;
 }
+.hamburger{
+     display: none; 
+    width: 20px;
+}
 .card p{
     text-align: center;
     letter-spacing: 1;
     
+}
+@media(max-width:900px){
+    .hamburger{
+        display: block;
+    }
+    .nav-item{
+        display: none;
+    }
+    .introduction p{
+        font-size: 25px;
+    }
+    .introduction span{
+        font-size: 35px;
+    }
+    .introduction h3{
+        font-size: 25px;
+    }
+    .flex{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
 }
