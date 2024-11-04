@@ -43,7 +43,47 @@ nav{
     font-size: 20px;
 }
 .nav-item:hover{
-    color: deeppink;
+    color: black;
+}
+.second-div{
+    height: 60vh;
+    width: 30vw;
+    background-color: pink;
+}
+.section2{
+    display: flex;
+    justify-content: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 20px;
+}
+.project1{
+    background-image: url(Images/projects/project-1.jpg);
+}
+.project2{
+    background-image: url(Images/projects/project-2.jpg);
+}
+.project3{
+    background-image: url(Images/projects/project-3.jpg);
+}
+.project4{
+    background-image: url(Images/projects/project-4.jpg);
+}
+.project5{
+    background-image: url(Images/projects/project-5.jpg);
+}
+.project6{
+    background-image: url(Images/projects/project-6.jpg);
+}
+.project7{
+    background-image: url(Images/projects/project-7.jpg);
+}
+.project8{
+    background-image: url(Images/projects/project-8.jpg);
+}
+.project9{
+    background-image: url(Images/projects/project-9.jpg);
 }
 .hero{
     background-color: pink;
@@ -102,7 +142,19 @@ nav{
     justify-content: center;
     align-items: center;
     margin-inline: auto;
+}
+.images-content{
+     display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 1000px;
+    margin-inline: auto;
+}
 
+.project{
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-size: cover;
 }
 svg{
     width: 100px;
@@ -121,6 +173,24 @@ svg{
     text-align: center;
     font-size: 50px;
     padding: 50px;
+}
+.picture{
+    background-color: pink;
+    height: 300px;
+    width: 300px;
+    border-radius: 160px;
+    margin-inline: auto;
+}
+.first-div p{
+    text-align: center;
+    line-height: 1.5;
+}
+.first-div h3{
+    text-align: center;
+    padding-top: 20px;
+}
+.first-div{
+    width: 500px;
 }
 .card h3{
     text-align: center;
@@ -157,5 +227,11 @@ svg{
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
+    }
+    .section2{
+        display: block;
+    }
+    .second-div{
+        display: none;
     }
 }
