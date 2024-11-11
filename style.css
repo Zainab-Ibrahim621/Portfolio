@@ -242,14 +242,46 @@ svg{
     margin-inline: auto;
     gap: 30px;
 }
+.learn-more{
+    background-color: white;
+    padding-block: 6px;
+    width: 120px;
+    margin-top: 70px;
+    font-weight: 300;
+    color: black;
+    display: block;
+    margin-inline: auto;
+    text-align: center;
+}
+.background{
+    display: none;
+}
+.project:hover .background{
+    display: block;
+}
+.project h3{
+    text-align: center;
+    margin-top: 50px;
+}
+.project p{
+    text-align: center;
+    font-size: 15px;
+}
 .card{
     padding-left: 20px;
     max-width: 300px;
+}
+div.project:hover{
+    background-image: none;
 }
 .section1 h2{
     text-align: center;
     font-size: 50px;
     padding: 50px;
+}
+.project{
+    background-color: pink;
+
 }
 .picture{
     background-color: pink;
@@ -267,7 +299,8 @@ svg{
     padding-top: 20px;
 }
 .first-div{
-    width: 500px;
+    max-width: 500px;
+    margin-inline: auto;
 }
 .card h3{
     text-align: center;
@@ -288,6 +321,9 @@ svg{
     font-weight: 600;
     padding-block: 10px;
 }
+.blog1:hover .blog h3{
+    color: deeppink;
+}
 .section4 h2{
     font-size: 50px;
     padding: 50px;
@@ -304,12 +340,14 @@ svg{
 .section5 h2{
     font-size: 40px;
     font-weight: 500;
-    margin-bottom: 50px;
+    margin-top: 20px;
+    display: block;
 }
 .section5 p{
     font-size: 12px;
     color: aqua;
     text-align: center;
+    padding-bottom: 20px;
     padding-top: 40px;
 }
 label{
@@ -406,6 +444,14 @@ textarea{
         grid-template-columns: 1fr 1fr;
     }
        
+}
+@media(max-width:363px){
+    .introduction p{
+        text-align: center;
+    }
+    .logo{
+        padding-left: 16px;
+    }
 }
 @media(max-width:700px){
     .images-content{
