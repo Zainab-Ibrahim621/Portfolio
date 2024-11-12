@@ -59,6 +59,7 @@ nav{
     margin-top: 50px;
     gap: 20px;
     max-width: 1177px;
+    margin-inline: auto;
      
 }
 .project1{
@@ -302,7 +303,7 @@ div.project:hover{
 }
 .first-div{
     max-width: 500px;
-    margin-inline: auto;
+    /* margin-inline: auto; */
 }
 .card h3{
     text-align: center;
@@ -458,5 +459,10 @@ textarea{
 @media(max-width:700px){
     .images-content{
         grid-template-columns: 1fr;
+    }
+}
+@media(max-width:899px){
+    .first-div{
+        margin-inline: auto;
     }
 }
